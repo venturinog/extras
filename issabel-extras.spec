@@ -3,13 +3,14 @@
 Summary: Issabel Extras
 Name: issabel-extras
 Version: 6.0.0
-Release: 1
+Release: 2
 License: GPL
 Group:   Applications/System
 Source0: issabel-%{modname}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildArch: noarch
 Requires(pre): issabel-framework >= 5.0.0-1
+Requires: issabel-php-phpmailer
 
 %description
 Issabel Extras
