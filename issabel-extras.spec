@@ -3,7 +3,7 @@
 Summary: Issabel Extras
 Name: issabel-extras
 Version: 6.0.0
-Release: 2
+Release: 3
 License: GPL
 Group:   Applications/System
 Source0: issabel-%{modname}-%{version}.tar.gz
@@ -60,3 +60,7 @@ fi
 /usr/share/issabel/module_installer/*
 
 %changelog
+* Mon Oct 19 2026 Issabel Foundation <info@issabel.org> - 6.0.0-3
+- Meet: use the theme alert primitive for the attribution banner. It used the
+  "alert alert-neon" class, which only the legacy tenant themes define, so
+  under the Modern theme the banner showed without any style.

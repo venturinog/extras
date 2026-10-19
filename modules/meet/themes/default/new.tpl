@@ -41,7 +41,7 @@
 </form>
 </div>
 </div>
-<div class='alert alert-neon text-right'>Powered by <a href='https://sfu.mirotalk.com/' rel='external'>MiroTalk</a></div>
+<div class='iss-alert iss-alert--info text-right'>Powered by <a href='https://sfu.mirotalk.com/' rel='external'>MiroTalk</a></div>
 {elseif $videomode eq 'template'}
 
 <div class='panel panel-neon'>
